@@ -3,6 +3,7 @@ import os from 'os';
 
 export default defineConfig({
   testDir: './tests',
+  outputDir: 'allure-results',
   reporter: [
     ['html'],
     ['allure-playwright', {
